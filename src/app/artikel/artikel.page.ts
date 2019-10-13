@@ -26,4 +26,19 @@ export class ArtikelPage implements OnInit {
           }
       );
   }
+
+  goToJudul1()
+  {
+    this.route.navigate(['/detailartikel']);
+  }
+
+  goToJudul2()
+  {
+    this.route.navigate(['/detailartikel']);
+  }
+
+  goToJudul3()
+  {
+    this.route.navigate(['/detailartikel']);
+  }
 }

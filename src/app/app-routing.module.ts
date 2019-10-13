@@ -10,7 +10,7 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
-  },
+  },  
   {
     path: 'list',
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
@@ -19,7 +19,8 @@ const routes: Routes = [
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'tambah-produk', loadChildren: './tambah-produk/tambah-produk.module#TambahProdukPageModule' },
   { path: 'kerajang-belanja', loadChildren: './kerajang-belanja/kerajang-belanja.module#KerajangBelanjaPageModule' },
-  { path: 'artikel', loadChildren: './artikel/artikel.module#ArtikelPageModule' }
+  { path: 'artikel', loadChildren: './artikel/artikel.module#ArtikelPageModule' },
+  { path: 'detailartikel', loadChildren: './detailartikel/detailartikel.module#DetailartikelPageModule' }
 ];
 
 @NgModule({
